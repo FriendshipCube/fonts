@@ -1,0 +1,62 @@
+#ifndef CAPTIONING FONT
+#define CAPTIONING FONT 1
+
+Google WebFonts
+Programmer Graeme Kilshaw
+
+/*-----------------
+ *  PUBLIC FONT
+ *----------------*/
+ 
+ FRIENDSHIPCUBE
+ Link:  https://github.com/FriendshipCube/ttf
+ 
+/*--------------------
+ *  ALL CUSTOM DATA
+ *--------------------*/
+ 
+ We are building a "Captioning" setting for the Google Chromecast.
+ This webfont will function to tranlate speech into 22bit visual bianry glyphs.
+ We aim to build a Google "Lyrics & Speech Visualizer" based on Google WebFonts
+ The FriendshipCube 22core visual binary fontstack needs to be uploaded.
+ A link has been provided for FriendshipCube Public Font
+ 
+/*---------------------
+ *  CHARACTER MAPPING
+ *--------------------*/
+ 
+ GRAEME KILSHAW & THE FRIENDSHIPCUBE FONTS
+ From Unicode to Google WebFonts 
+ 
+ /*---------------------
+ *  GLYPH DESCRIPTION
+ *--------------------*/
+ 
+ There is a correlation between light and sound, or geometry and phonetics
+ in this 22bit visual binary webfont.  The characters on the friendshipcube
+ rotate and combine. 
+ 
+/*-----------------
+ *    BITMAPS
+ *----------------*/
+ 
+ /*Store the image of the glyphs*/
+static LV_ATTRIBUTE_LARGE_CONST const uint8_t glyph_bitmap[] = {
+    /* U+0020 " " */
+    0x0,
+
+    /* U+0041 "A" */
+    0x0, 0x18, 0x0, 0x0, 0x3c, 0x0, 0x0, 0x66,
+    0x0, 0x0, 0xc3, 0x0, 0x1, 0x81, 0x80, 0x3,
+    0x0, 0xc0, 0x7, 0x0, 0xe0, 0xe, 0x0, 0x70,
+    0x1c, 0x0, 0x38, 0x38, 0x0, 0x1c, 0x70, 0x0,
+    0xe, 0xe0, 0x0, 0x7, 0xef, 0xff, 0xf7, 0x60,
+    0x0, 0x6, 0x30, 0x0, 0xc, 0x18, 0x0, 0x18,
+    0xc, 0x0, 0x30, 0x6, 0x0, 0x60, 0x3, 0x0,
+    0xc0, 0x1, 0x81, 0x80, 0x0, 0xc3, 0x0, 0x0,
+    0x66, 0x0, 0x0, 0x3c, 0x0, 0x0, 0x18, 0x0,
+ 
+ 
+ 
+#endif /*#if CAPTIONING FONT*/
+*/
